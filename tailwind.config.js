@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/components/layout/Header.tsx", "./src/components/common/DropdownMenu.tsx", "./src/components/common/NavLinkCustom.tsx", "./src/components/common/logo.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        lightBlue: '#1b69f8',
+      }
+    },
   },
   plugins: [],
 }
