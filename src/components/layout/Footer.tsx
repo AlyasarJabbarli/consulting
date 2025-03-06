@@ -7,7 +7,7 @@ import NavLinkCustom from "../common/NavLinkCustom";
 const Footer: React.FC = () => {
     return (
         <footer className="bg-bgBlack">
-            <div className="container mx-auto text-white">
+            <div className="container mx-auto text-white pt-20">
                 <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-8 py-8 sm:px-0 px-8">
                     <div className="flex flex-col gap-5">
                         <div>
