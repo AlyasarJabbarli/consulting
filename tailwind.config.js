@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/components/sections/home_sections/HeroSection.tsx","./src/components/sections/common/WhoWeSection.tsx","./src/components/sections/common/OurServicesSection.tsx","./src/components/sections/common/SolutionsSection.tsx","./src/components/layout/Header.tsx", "./src/components/layout/Footer.tsx","./src/components/common/SectionTitle.tsx","./src/components/common/OurServicesSectionCard.tsx","./src/components/common/DropdownMenu.tsx","./src/components/common/SectionSubtitle.tsx", "./src/components/common/ContactForm.tsx", "./src/components/common/NavLinkCustom.tsx", "./src/components/common/logo.tsx"],
+  content: ["./src/components/sections/home_sections/HeroSection.tsx","./src/components/sections/common/WhoWeSection.tsx","./src/components/sections/common/OurServicesSection.tsx","./src/components/sections/common/SolutionsSection.tsx","./src/components/sections/common/HowItWorksSection.tsx","./src/components/layout/Header.tsx", "./src/components/layout/Footer.tsx","./src/components/common/SectionTitle.tsx","./src/components/common/OurServicesSectionCard.tsx","./src/components/common/DropdownMenu.tsx","./src/components/common/SectionSubtitle.tsx", "./src/components/common/ContactForm.tsx", "./src/components/common/NavLinkCustom.tsx", "./src/components/common/logo.tsx", "./src/components/common/BlueBtn.tsx"],
   theme: {
     extend: {
       colors:{

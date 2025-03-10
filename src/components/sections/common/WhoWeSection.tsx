@@ -3,7 +3,7 @@ import SectionSubtitle from '../../common/SectionSubtitle';
 
 const WhoWeSection: React.FC = () => {
     return (
-        <section className="who-we-section relative mb-56">
+        <section className="who-we-section relative sm:mb-56">
             <div className='absolute bottom-56 md:bottom-0 right-9'>
                 <h1 className='text-8xl sm:text-9xl md:text-[171px] text-lightGray text-right'>
                     Experienced Business Consultants
