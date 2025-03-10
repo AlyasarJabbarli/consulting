@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionHeader from '../../common/SectionHeader';
+import SectionSubtitle from '../../common/SectionSubtitle';
 
 const WhoWeSection: React.FC = () => {
     return (
@@ -9,10 +9,10 @@ const WhoWeSection: React.FC = () => {
                     Experienced Business Consultants
                 </h1>
             </div>
-            <div className="container mx-auto py-36 relative">
+            <div className="container mx-auto py-36 relative px-6 sm:px-0">
                 <div className='flex justify-end'>
                     <div className='max-w-2xl flex flex-col gap-5'>
-                        <SectionHeader subtitle='Who We Are' />
+                        <SectionSubtitle subtitle='Who We Are' />
                         <div className='text-lg'>
                             <p className='mb-4'>
                                 We are a team of experienced consultants dedicated to helping businesses overcome challenges and unlock their full potential. With a proven track record across industries, we deliver actionable insights that drive results
@@ -22,7 +22,7 @@ const WhoWeSection: React.FC = () => {
                             </p>
                         </div>
                         <div>
-                            <iframe className='mx-auto md:ml-0' width="280" height="187" src="https://www.youtube.com/embed/OuWO5F7z4tw" title="Aygün Kazımova - Can Ol (Rəsmi Musiqi)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>                        
+                            <iframe width="280" height="187" src="https://www.youtube.com/embed/uf2jgX0I4Bk" title="Bəxtiyar film, Pulumu verün" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>
