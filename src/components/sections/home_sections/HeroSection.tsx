@@ -12,8 +12,8 @@ const HeroSection: React.FC<HeroSectionProps> = () => {
     };
 
     return (
-        <section className="hero-section sm:h-[820px] h-fit">
-            <div className="hero-content bg-hero-pattern relative h-full">
+        <section>
+            <div className="hero-content bg-hero-pattern relative  sm:h-[820px] h-fit">
                 <div className="absolute inset-0 bg-grayOverlay h-full"></div>
                 <div className='container mx-auto h-full'>
                     <div className='flex relative justify-between h-full items-center sm:px-0 px-2 sm:py-0 py-5 sm:flex-row flex-col lg:gap-44 gap-10'>

@@ -8,7 +8,7 @@ interface SolutionsSectionProps { }
 
 const SolutionsSection: React.FC<SolutionsSectionProps> = () => {
     return (
-        <section className='solutions-section '>
+        <section>
             <div className="container mx-auto py-24 px-6 sm:px-0">
                 <div className='flex flex-col gap-y-10 md:flex-row justify-between'>
                     <div className='w-full md:w-2/4 lg:w-2/5 flex flex-col justify-center'>
