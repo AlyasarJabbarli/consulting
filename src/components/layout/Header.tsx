@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Logo from '../common/logo';
 import { EnvelopeIcon, DevicePhoneMobileIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid'
 import NavLinkCustom from '../common/NavLinkCustom';
@@ -6,7 +6,18 @@ import DropdownMenu from '../common/DropdownMenu';
 
 const Header: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    useEffect(() => {
+        if (isMenuOpen) {
+          document.body.style.overflow = "hidden"; // Disable scrolling
+        } else {
+          document.body.style.overflow = ""; // Enable scrolling
+        }
+        
+        return () => {
+          document.body.style.overflow = ""; // Cleanup on unmount
+        };
+      }, [isMenuOpen]);
+    
     return (
         <header>
             <div className='container mx-auto h-20'>
@@ -69,7 +80,7 @@ const Header: React.FC = () => {
                         </button>
                     </div>
 
-                    <div className={`${isMenuOpen ? "w-full" : "w-0"} h-full duration-300 bg-[rgba(0,0,0,0.4)] absolute top-0 left-0 overflow-hidden lg:hidden`} onClick={() => setIsMenuOpen(false)} >
+                    <div className={`${isMenuOpen ? "w-full" : "w-0"} h-full duration-300 bg-[rgba(0,0,0,0.4)] absolute top-0 left-0 overflow-hidden lg:hidden  z-50`} onClick={() => setIsMenuOpen(false)} >
                         <div className={`${isMenuOpen ? "w-72" : "w-0"} duration-500 z-10  bg-white absolute top-0 left-0 h-full`}>
                             <div className='flex flex-col h-full justify-between py-4'>
                                 <div>

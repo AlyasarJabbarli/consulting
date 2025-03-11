@@ -5,6 +5,7 @@ import OurServicesSection from '../components/sections/common/OurServicesSection
 import SolutionsSection from '../components/sections/common/SolutionsSection';
 import HowItWorksSection from '../components/sections/common/HowItWorksSection';
 import SuccessStoriesSection from '../components/sections/home_sections/SuccessStoriesSection';
+import IndustriesSection from '../components/sections/common/IndustriesSection';
 
 const Home: React.FC = () => {
     return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
             <SolutionsSection/>
             <HowItWorksSection/>
             <SuccessStoriesSection/>
+            <IndustriesSection/>
         </main>
     );
 };

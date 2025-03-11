@@ -1,8 +1,8 @@
 import React from 'react';
 import SectionTitle from '../../common/SectionTitle';
 import SectionSubtitle from '../../common/SectionSubtitle';
-import { CheckCircleIcon } from '@heroicons/react/20/solid';
 import { LightBulbIcon } from '@heroicons/react/24/outline';
+import CheckedList from '../../common/CheckedList';
 
 interface SolutionsSectionProps { }
 
@@ -25,15 +25,7 @@ const SolutionsSection: React.FC<SolutionsSectionProps> = () => {
                                 </p>
                             </div>
                         </div>
-                        <div>
-                            <ul className='text-lg flex flex-col gap-3 [&>li]:flex [&>li>p]:ml-2 [&>li>svg]:w-[22px] [&>li>svg]:text-lightBlue '>
-                                <li><CheckCircleIcon /><p>Tailored Solutions for Your Business</p></li>
-                                <li><CheckCircleIcon /><p>Proven Industry Expertise</p> </li>
-                                <li><CheckCircleIcon /><p>Data-Driven Strategies</p> </li>
-                                <li><CheckCircleIcon /><p>Commitment to Results</p> </li>
-                                <li><CheckCircleIcon /><p>Transparent Communication</p> </li>
-                            </ul>
-                        </div>
+                        <CheckedList items={["Tailored Solutions for Your Business", "Proven Industry Expertise", "Data-Driven Strategies","Commitment to Results", "Transparent Communication"]}/>
                     </div>
                     <div className='relative w-full md:w-2/4 lg:w-2/5'>
                         <img className='w-full h-full' src="https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/05.webp" alt="" />
