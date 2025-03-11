@@ -7,6 +7,8 @@ module.exports = {
     "./src/components/sections/common/SolutionsSection.tsx",
     "./src/components/sections/common/HowItWorksSection.tsx",
     "./src/components/sections/common/IndustriesSection.tsx",
+    "./src/components/sections/common/FaqSection.tsx",
+    "./src/components/sections/common/BookSection.tsx",
     "./src/components/layout/Header.tsx", 
     "./src/components/layout/Footer.tsx",
     "./src/components/common/SectionTitle.tsx",
@@ -18,6 +20,8 @@ module.exports = {
     "./src/components/common/logo.tsx", 
     "./src/components/common/BlueBtn.tsx",
     "./src/components/common/CheckedList.tsx",
+    "./src/components/common/Accordion.tsx",
+
 
   ],
   theme: {
@@ -36,6 +40,7 @@ module.exports = {
         'hero-pattern': "url('https://kit.sociolib.com//consulto//wp-content//uploads//sites//25//2025//01//02.webp')",
         'our-services-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/11.webp')",
         'industries-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/20.webp')",
+        'booking-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/07.webp')",
       }
     },
   },
