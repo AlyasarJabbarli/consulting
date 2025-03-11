@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/components/sections/home_sections/SuccessStoriesSection.tsx", 
+  content: [
+    "./src/components/sections/home_sections/SuccessStoriesSection.tsx", 
     "./src/components/sections/home_sections/HeroSection.tsx",
+
+    "./src/components/sections/about_sections/StatisticsSection.tsx",
+
     "./src/components/sections/common/WhoWeSection.tsx",
     "./src/components/sections/common/OurServicesSection.tsx",
     "./src/components/sections/common/SolutionsSection.tsx",
@@ -10,8 +14,10 @@ module.exports = {
     "./src/components/sections/common/FaqSection.tsx",
     "./src/components/sections/common/BookSection.tsx",
     "./src/components/sections/common/CommonHeroSection.tsx",
+
     "./src/components/layout/Header.tsx", 
     "./src/components/layout/Footer.tsx",
+
     "./src/components/common/SectionTitle.tsx",
     "./src/components/common/OurServicesSectionCard.tsx",
     "./src/components/common/DropdownMenu.tsx",
@@ -35,13 +41,15 @@ module.exports = {
         grayOverlay: '#22283170',
         lightGray: '#EBEDEF',
         bgGray: '#F4F6FB',
-        dividerColor : '#BABABA'
+        dividerColor : '#BABABA',
+        whiteOverlayColor : '#FFFFFF80'
       },
       backgroundImage: {
         'hero-pattern': "url('https://kit.sociolib.com//consulto//wp-content//uploads//sites//25//2025//01//02.webp')",
         'our-services-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/11.webp')",
         'industries-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/20.webp')",
         'booking-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/07.webp')",
+        'expert-team-background' : "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/14.webp')"
       }
     },
   },

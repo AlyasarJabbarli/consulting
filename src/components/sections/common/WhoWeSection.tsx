@@ -10,7 +10,7 @@ const WhoWeSection: React.FC = () => {
                         Experienced Business Consultants
                     </h1>
                 </div>
-                <div className="container mx-auto py-36 relative px-6 sm:px-0 sm:mb-56">
+                <div className="container mx-auto py-36 relative px-6 sm:px-0 sm:mb-32">
                     <div className='flex justify-end'>
                         <div className='max-w-2xl flex flex-col gap-5'>
                             <SectionSubtitle subtitle='Who We Are' />
