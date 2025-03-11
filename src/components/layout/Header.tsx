@@ -44,7 +44,7 @@ const Header: React.FC = () => {
 
                                     </li>
                                     <li><NavLinkCustom to="/services">Services</NavLinkCustom></li>
-                                    <li><NavLinkCustom to="/contact">About</NavLinkCustom></li>
+                                    <li><NavLinkCustom to="/about">About</NavLinkCustom></li>
                                     <li><NavLinkCustom to="/contact">Plan</NavLinkCustom></li>
                                 </ul>
                             </nav>

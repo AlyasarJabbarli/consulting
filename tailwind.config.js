@@ -9,6 +9,7 @@ module.exports = {
     "./src/components/sections/common/IndustriesSection.tsx",
     "./src/components/sections/common/FaqSection.tsx",
     "./src/components/sections/common/BookSection.tsx",
+    "./src/components/sections/common/CommonHeroSection.tsx",
     "./src/components/layout/Header.tsx", 
     "./src/components/layout/Footer.tsx",
     "./src/components/common/SectionTitle.tsx",
