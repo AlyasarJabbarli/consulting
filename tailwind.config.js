@@ -8,6 +8,9 @@ module.exports = {
 
     "./src/components/sections/contact_sections/GetInTouchSection.tsx",
 
+    "./src/components/sections/plan_sections/PricingSection.tsx",
+
+
 
     "./src/components/sections/common/WhoWeSection.tsx",
     "./src/components/sections/common/OurServicesSection.tsx",

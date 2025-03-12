@@ -19,6 +19,7 @@ const BookSection: React.FC = () => {
                                         <SectionTitle title='Let’s build your success story together' />
                                     </div>
                                     <BlueBtn text='Book your consultation' />
+
                                 </div>
                             </div>
                         </div>

@@ -5,6 +5,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import Plan from "./pages/Plan";
 
 const AppRouter = () => {
     return (
@@ -15,6 +16,7 @@ const AppRouter = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/plan" element={<Plan />} />
             </Routes>
             <Footer/>
         </Router>
