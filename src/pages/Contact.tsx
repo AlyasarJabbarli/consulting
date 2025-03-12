@@ -1,25 +1,15 @@
 import React from 'react';
+import CommonHeroSection from '../components/sections/common/CommonHeroSection';
+import GetInTouchSection from '../components/sections/contact_sections/GetInTouchSection';
+import MapSection from '../components/sections/contact_sections/MapSection';
 
 const Contact: React.FC = () => {
     return (
-        <div>
-            <h1>Contact Us</h1>
-            <form>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" name="name" required />
-                </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" name="email" required />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        <main>
+            <CommonHeroSection title='Contact Us' subtitle='We assist you in leveraging digital tools to improve your business processes, customer experience, and market reach.' backgroundImage='https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/21.webp'/>
+            <GetInTouchSection/>
+            <MapSection/>
+        </main>
     );
 };
 

@@ -59,12 +59,12 @@ const Footer: React.FC = () => {
 
                             <div>
                                 <div >
-                                    <NavLinkCustom to="tel:123456789" icon={<DevicePhoneMobileIcon />} isBgBlack>
+                                    <NavLinkCustom to="tel:123456789" icon={<DevicePhoneMobileIcon />} isBgBlack isBold>
                                         (123) 456 789
                                     </NavLinkCustom>
                                 </div>
                                 <div>
-                                    <NavLinkCustom to="mailto:mail@consulto.biz" icon={<EnvelopeIcon />} isBgBlack>
+                                    <NavLinkCustom to="mailto:mail@consulto.biz" icon={<EnvelopeIcon />} isBgBlack isBold>
                                         mail@consulto.biz
                                     </NavLinkCustom>
                                 </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Logo from '../common/logo';
-import { EnvelopeIcon, DevicePhoneMobileIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid'
+import {DevicePhoneMobileIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid'
+import { EnvelopeIcon } from '@heroicons/react/24/outline'
 import NavLinkCustom from '../common/NavLinkCustom';
 import DropdownMenu from '../common/DropdownMenu';
 
@@ -55,12 +56,12 @@ const Header: React.FC = () => {
                     <div className="items-center hidden lg:flex xl:gap-6 ">
                         <div className='xl:gap-6 gap-2 flex flex-col xl:flex-row'>
                             <div className='border-r border-gray-300 pr-6'>
-                                <NavLinkCustom to="tel:123456789" icon={<DevicePhoneMobileIcon />}>
+                                <NavLinkCustom to="tel:123456789" icon={<DevicePhoneMobileIcon />} isBold>
                                     (123) 456 789
                                 </NavLinkCustom>
                             </div>
                             <div>
-                                <NavLinkCustom to="mailto:mail@consulto.biz" icon={<EnvelopeIcon />}>
+                                <NavLinkCustom to="mailto:mail@consulto.biz" icon={<EnvelopeIcon />} isBold>
                                     mail@consulto.biz
                                 </NavLinkCustom>
                             </div>

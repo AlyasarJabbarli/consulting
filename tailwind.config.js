@@ -6,6 +6,9 @@ module.exports = {
 
     "./src/components/sections/about_sections/StatisticsSection.tsx",
 
+    "./src/components/sections/contact_sections/GetInTouchSection.tsx",
+
+
     "./src/components/sections/common/WhoWeSection.tsx",
     "./src/components/sections/common/OurServicesSection.tsx",
     "./src/components/sections/common/SolutionsSection.tsx",
