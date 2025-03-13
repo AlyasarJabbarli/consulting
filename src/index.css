@@ -25,3 +25,34 @@ h1, h2, h3{
   font-weight: 400;
   font-style: normal;
 }
+
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  padding-top: 100px;
+}
+.swiper .swiper-button-prev, 
+.swiper .swiper-button-next {
+  top: 50px;
+  color: white;
+}
+.swiper .swiper-button-prev{
+  left: 90%;
+}
+@media screen and (max-width: 768px) {
+  .swiper .swiper-button-prev{
+    left: 80%;
+  }
+}
+
+.swiper .swiper-button-next {
+  right: 1%;
+}
+.swiper .swiper-button-prev:hover, 
+.swiper .swiper-button-next:hover {
+  color:  #E9C26B;
+}
+
+.swiper .swiper-button-prev::after, 
+.swiper .swiper-button-next::after {
+ 
+  font-size: 22px;
+}
