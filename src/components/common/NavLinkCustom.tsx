@@ -19,9 +19,8 @@ const NavLinkCustom = ({ to, children, isBgBlack, isButton, icon, isBold }: NavL
           ? "border-2 border-blue-600 px-9 py-3"
           : ""
         }
-        ${isBgBlack ? `hover:text-goldHover` : "hover:text-lightBlue px-4" }
-        ${isBold && "font-semibold"}
-        
+        ${isBgBlack ? `hover:text-goldHover` : "hover:text-lightBlue px-4"}
+        ${isBold ? "font-semibold" : ""}      
       `}
     >
       {icon && <span className={`block w-5 mr-3 ${isBgBlack ? "text-purpleHeading" : "text-lightBlue"}`}>{icon}</span>}

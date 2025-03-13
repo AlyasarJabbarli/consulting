@@ -11,6 +11,9 @@ module.exports = {
     "./src/components/sections/plan_sections/PricingSection.tsx",
     "./src/components/sections/plan_sections/ReviewsSection.tsx",
 
+    "./src/components/sections/services_sections/ExpertiseSection.tsx",
+
+
 
 
     "./src/components/sections/common/WhoWeSection.tsx",
@@ -35,8 +38,8 @@ module.exports = {
     "./src/components/common/BlueBtn.tsx",
     "./src/components/common/CheckedList.tsx",
     "./src/components/common/Accordion.tsx",
-
-
+    "./src/components/common/ReviewCard.tsx",
+    "./src/components/common/ExpertiseCard.tsx",
   ],
   theme: {
     extend: {

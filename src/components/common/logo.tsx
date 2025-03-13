@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import logo from '../../assets/images/SKY-Photoroom.png'
 const Logo: React.FC = () => {
     return (
-        <div className="logo w-10">
+        <div className="logo w-20 overflow-hidden">
             <NavLink to={"/"}>
-                <img src="https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/consulto.png" alt="Company Logo" />
+                <img className='object-contain' src={logo} alt="Sky Consulting Logo" />
             </NavLink>
         </div>
     );

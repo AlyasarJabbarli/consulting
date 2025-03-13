@@ -32,7 +32,7 @@ const Header: React.FC = () => {
                         <div className='hidden lg:block'>
                             <nav>
                                 <ul className='flex gap-x-4 items-center'>
-                                    <li><NavLinkCustom to="/">Home</NavLinkCustom></li>
+                                    <li><NavLinkCustom to="/" isBold>Home</NavLinkCustom></li>
                                     <li>
                                         <DropdownMenu
                                             label="Pages"
@@ -44,9 +44,9 @@ const Header: React.FC = () => {
                                         />
 
                                     </li>
-                                    <li><NavLinkCustom to="/services">Services</NavLinkCustom></li>
-                                    <li><NavLinkCustom to="/about">About</NavLinkCustom></li>
-                                    <li><NavLinkCustom to="/plan">Plan</NavLinkCustom></li>
+                                    <li><NavLinkCustom isBold to="/services">Services</NavLinkCustom></li>
+                                    <li><NavLinkCustom isBold to="/about">About</NavLinkCustom></li>
+                                    <li><NavLinkCustom isBold to="/plan">Plan</NavLinkCustom></li>
                                 </ul>
                             </nav>
                         </div>
@@ -98,7 +98,7 @@ const Header: React.FC = () => {
                                     <div>
                                         <nav>
                                             <ul className='flex flex-col gap-y-2'>
-                                                <li><NavLinkCustom to="/">Home</NavLinkCustom></li>
+                                                <li><NavLinkCustom to="/" isBold>Home</NavLinkCustom></li>
                                                 <li><NavLinkCustom to="/single-service">Single Service</NavLinkCustom></li>
                                                 <li><NavLinkCustom to="/contact">Contact</NavLinkCustom></li>
                                                 <li><NavLinkCustom to="/process">Process</NavLinkCustom></li>

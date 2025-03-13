@@ -20,7 +20,7 @@ const DropdownMenu: React.FC<DropdownProps> = ({ label, links, className, childr
     >
       {/* Dropdown Button */}
       <div className="inline-flex items-center hover:text-lightBlue duration-150 cursor-pointer">
-        <NavLinkCustom to="#">{label}</NavLinkCustom>
+        <NavLinkCustom to="#" isBold>{label}</NavLinkCustom>
         <ChevronDownIcon aria-hidden="true" className="-mr-1 size-7" />
       </div>
 
@@ -31,7 +31,7 @@ const DropdownMenu: React.FC<DropdownProps> = ({ label, links, className, childr
             {links &&
               links.map((link, index) => (
                 <li key={index}>
-                  <NavLinkCustom to={link.to} >
+                  <NavLinkCustom to={link.to} isBold>
                     {link.text}
                   </NavLinkCustom>
                 </li>
