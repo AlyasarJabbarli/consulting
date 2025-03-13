@@ -9,6 +9,7 @@ module.exports = {
     "./src/components/sections/contact_sections/GetInTouchSection.tsx",
 
     "./src/components/sections/plan_sections/PricingSection.tsx",
+    "./src/components/sections/plan_sections/ReviewsSection.tsx",
 
 
 
@@ -55,7 +56,11 @@ module.exports = {
         'our-services-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/11.webp')",
         'industries-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/20.webp')",
         'booking-background': "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/07.webp')",
-        'expert-team-background' : "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/14.webp')"
+        'expert-team-background' : "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/14.webp')",
+        'reviews-background' : "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/20.webp')",
+        'overlay-gradient' : "linear-gradient(20deg, #141516 15%, #22283170 100%)",
+        'overlay-gradient-light' : "linear-gradient(180deg, #FFFFFF00 0%, #141516 100%)",
+        'reviews-background2' : "url('https://kit.sociolib.com/consulto/wp-content/uploads/sites/25/2025/01/04.webp')",
       }
     },
   },
