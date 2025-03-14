@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./src/pages/SingleService.tsx", 
+
     "./src/components/sections/home_sections/SuccessStoriesSection.tsx", 
     "./src/components/sections/home_sections/HeroSection.tsx",
 
@@ -12,6 +14,9 @@ module.exports = {
     "./src/components/sections/plan_sections/ReviewsSection.tsx",
 
     "./src/components/sections/services_sections/ExpertiseSection.tsx",
+
+    "./src/components/sections/process_sections/StepsSection.tsx",
+
 
 
 
@@ -40,6 +45,7 @@ module.exports = {
     "./src/components/common/Accordion.tsx",
     "./src/components/common/ReviewCard.tsx",
     "./src/components/common/ExpertiseCard.tsx",
+    "./src/components/common/StepsCard.tsx",
   ],
   theme: {
     extend: {
