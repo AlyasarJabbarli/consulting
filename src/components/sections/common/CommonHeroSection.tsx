@@ -19,7 +19,7 @@ const CommonHeroSection: React.FC<CommonHeroSectionProps> = ({
                         <div className='flex items-center h-full'>
                             <div className='max-w-xl sm:px-0 px-3'>
                                 <div>
-                                    <h1 className='text-8xl'>{title}</h1>
+                                    <h1 className='text-8xl capitalize'>{title}</h1>
                                 </div>
                                 <div className='mt-6'>
                                     <p className='text-lg'>{subtitle}</p>

@@ -8,7 +8,7 @@ import BlueBtn from '../../common/BlueBtn';
 const HowItWorksSection: React.FC = () => {
     return (
         <section>
-            <div className='py-16'>
+            <div className='pt-16'>
                 <div className='container mx-auto  pb-5 px-6 sm:px-0'>
                     <div className='flex flex-col md:flex-row gap-y-3'>
                         <div className='md:w-2/4'>
